@@ -46,17 +46,17 @@ export default function RootLayout({
             },
             "foundingDate":"2024-09-16"
         }
-        const jsonLd1 = {
-            "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": `${SITENAME}`,
-        "url": "https://bokepindonesiaterbaru.pages.dev",
-        "description": `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
-        "image": "https://bokepindonesiaterbaru.pages.dev/favicon.ico",
-        "potentialAction":{
-            "@type":"ReadAction",
-            "target":"https://bokepindonesiaterbaru.pages.dev"}
-        }
+        const jsonLd2 = {
+             "@context": "https://schema.org",
+         "@type": "WebSite",
+         "name": `${SITENAME}`,
+         "url": "https://bocilngewe.pages.dev",
+         "description": `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pijat.`,
+         "potentialAction": { 
+         "@type": "SearchAction", 
+           "target": "https://bocilngewe.pages.dev/?q={search_term}", 
+             "query-input": "required name=search_term"}
+         }
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={font.className}>
