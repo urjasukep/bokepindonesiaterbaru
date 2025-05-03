@@ -57,17 +57,6 @@ export default function RootLayout({
             "@type":"ReadAction",
             "target":"https://bokepindonesiaterbaru.pages.dev"}
         }
-        const jsonLd2 = {
-            "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": `${SITENAME}`,
-        "url": "https://bokepindonesiaterbaru.pages.dev",
-        "description": `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
-        "potentialAction": { 
-        "@type": "SearchAction", 
-          "target": "https://bokepindonesiaterbaru.pages.dev/?q={search_term}", 
-            "query-input": "required name=search_term"}
-        }
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={font.className}>
@@ -80,10 +69,6 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd1) }}
         />
         <script
           type="application/ld+json"
